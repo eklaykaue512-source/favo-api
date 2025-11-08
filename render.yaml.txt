@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: favo-api
+    env: node
+    buildCommand: npm install
+    startCommand: npm start
+    plan: free
